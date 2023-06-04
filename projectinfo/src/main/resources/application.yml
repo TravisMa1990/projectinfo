@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ipdsys?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password:
+#    username: sa
+#    password: sa
+#    url: jdbc:h2:/Users/travis/test
+#    driver-class-name: org.h2.Driver
+  redis:
+    host: localhost
+    port: 6379
+
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-enums-package: com.ipdsys.*.enums
