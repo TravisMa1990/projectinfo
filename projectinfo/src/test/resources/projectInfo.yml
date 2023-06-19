@@ -1,0 +1,8 @@
+projectInfoDetail:
+  projectInfo:
+    name: project1000023
+  members:
+    - userId: 1
+      memberName: SystemUser
+    - userId: 2
+      memberName: Tom
